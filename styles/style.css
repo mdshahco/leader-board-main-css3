@@ -1,0 +1,133 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style or utilitoes */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+.container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+}
+main{
+    display: flex;
+    justify-content: center;
+
+}
+/* top players section style */
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-row-gap: 30px;
+}
+.players img{
+    height: 56px;
+    width: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+  
+}
+ /* top blog styles */
+ .blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 46px;
+ }
+ .blog{
+    display: flex;
+    align-items:center;
+ }
+ .thumbnail img{
+    width: 177px;
+    height: 117px;
+ }
+ .blog-info{
+    margin-left: 16px;
+ }
+ .blog-title{
+    font-size: 20px;
+ }
+ .blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+ }
+ /* --------------------------------------------------- */
+ /* lates courses */
+ .courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    margin: 0px;
+    width: 100%;
+
+ }
+ .course{
+    width: 250px;
+    height: 270px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.05);
+    margin-bottom: 22px;
+
+ }
+ .course-bannar img{
+    width: 224px;
+    height: 104px;
+ }
+ .course-rating-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ }
+ .fa-star{
+    font-size: 12px;
+ }
+ .filled{
+    color: #FFC014;
+ }
+ .empty{
+    color: #AEAEAE;
+ }
+ .rating{
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 15px;
+ }
+ .course-duration{
+    background: #FFE4E8;
+    border-radius: 15px;
+    padding: 5px;
+    color: #FF4A60;
+    font-weight: 600;
+    font-size: 15px;
+ }
